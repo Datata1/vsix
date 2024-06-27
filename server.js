@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
+//aaa
 // Definiere den Pfad zur VSIX-Datei
 const vsixFile = 'codesphere-0.0.1.vsix';
 const vsixFilePath = path.resolve(__dirname, vsixFile);
